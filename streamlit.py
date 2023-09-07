@@ -1,4 +1,4 @@
-# one
+# Use magic
 """
 # My first app
 Here's our first attempt at using data to create a table:
@@ -14,7 +14,7 @@ df = pd.DataFrame({
 
 df
 
-# two
+# Write a data frame
 dataframe = np.random.randn(10, 20)
 st.dataframe(dataframe)
 
