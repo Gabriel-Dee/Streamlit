@@ -63,3 +63,6 @@ x = st.slider('x')  # 👈 this is a widget
 st.write(x, 'squared is', x * x)
 
 # Use input
+import streamlit as st
+st.text_input("Your name", key="name")
+
