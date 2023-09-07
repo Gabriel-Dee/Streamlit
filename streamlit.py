@@ -66,3 +66,14 @@ st.write(x, 'squared is', x * x)
 import streamlit as st
 st.text_input("Your name", key="name")
 
+# Use checkboxes to show/hide data
+import streamlit as st
+import numpy as np
+import pandas as pd
+
+if st.checkbox('Show dataframe'):
+    chart_data = pd.DataFrame(
+       np.random.randn(20, 3),
+       columns=['a', 'b', 'c'])
+
+    chart_data
