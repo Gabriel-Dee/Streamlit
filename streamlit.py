@@ -25,7 +25,7 @@ dataframe = pd.DataFrame(
 
 st.dataframe(dataframe.style.highlight_max(axis=0))
 
-# four
+# Write a table
 import streamlit as st
 import numpy as np
 import pandas as pd
